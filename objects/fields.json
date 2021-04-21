@@ -1,0 +1,899 @@
+[
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Field",
+    "qCardinal": 74,
+    "qTags": [
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$FieldNo",
+    "qCardinal": 35,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Fields",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Info",
+    "qCardinal": 1,
+    "qTags": [
+      "$ascii",
+      "$text",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Rows",
+    "qCardinal": 10,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qIsHidden": true,
+    "qIsSystem": true,
+    "qName": "$Table",
+    "qCardinal": 11,
+    "qTags": [
+      "$text",
+      "$key",
+      "$hidden",
+      "$system"
+    ],
+    "qSrcTables": []
+  },
+  {
+    "qName": "DateId",
+    "qCardinal": 181,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "IsWeekend",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "KeyAction",
+    "qCardinal": 4400814,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "X",
+    "qCardinal": 13557,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "Y",
+    "qCardinal": 16438,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "del_ХозНомер",
+    "qCardinal": 130,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "СправочникПаркТехники"
+    ]
+  },
+  {
+    "qName": "end",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ЗагрузкаПоРейсам_136"
+    ]
+  },
+  {
+    "qName": "end_220",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ЗагрузкаПоРейсам_220"
+    ]
+  },
+  {
+    "qName": "flgГруженый",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "flgОжиданиеПогр",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "flgОжиданиеРазгр",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "flgПорожний",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "start",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ЗагрузкаПоРейсам_136"
+    ]
+  },
+  {
+    "qName": "start_220",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ЗагрузкаПоРейсам_220"
+    ]
+  },
+  {
+    "qName": "Вес",
+    "qCardinal": 498,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ВесРазгрузкиУср",
+    "qCardinal": 317,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ВремяПогр",
+    "qCardinal": 20019,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ВремяРазг",
+    "qCardinal": 20047,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "Год",
+    "qCardinal": 1,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "ГодКвартал",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "ГодМесяц",
+    "qCardinal": 6,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "ГодНеделя",
+    "qCardinal": 26,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "ГруппаЗагрузки",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ЗагрузкаПоРейсам_136"
+    ]
+  },
+  {
+    "qName": "ГруппаЗагрузки_220",
+    "qCardinal": 4,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "ЗагрузкаПоРейсам_220"
+    ]
+  },
+  {
+    "qName": "ГруппаПотерь",
+    "qCardinal": 3,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "События",
+      "ГруппаПотерь"
+    ]
+  },
+  {
+    "qName": "Дата",
+    "qCardinal": 181,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$timestamp",
+      "$date",
+      "$key"
+    ],
+    "qSrcTables": [
+      "События",
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "ДатаВремя",
+    "qCardinal": 3381706,
+    "qTags": [
+      "$numeric",
+      "$timestamp"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ДельтаВСекПорожний",
+    "qCardinal": 8856,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ДельтаВСекРазгр",
+    "qCardinal": 8856,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "День",
+    "qCardinal": 31,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "ДеньНедели",
+    "qCardinal": 7,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "Ед.изм.",
+    "qCardinal": 9,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "СводныйОтчет"
+    ]
+  },
+  {
+    "qName": "ЗаправкаКонец",
+    "qCardinal": 1515,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ЗаправкаНачало",
+    "qCardinal": 1630,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ЗначениеДатчиков",
+    "qCardinal": 75,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ИндексМассива",
+    "qCardinal": 8,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "Квартал",
+    "qCardinal": 2,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "КодМодель",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "СправочникПаркТехники",
+      "СправочникМодельТехники"
+    ]
+  },
+  {
+    "qName": "КодПредприятие",
+    "qCardinal": 15,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "СправочникПаркТехники",
+      "СправочникПредприятия"
+    ]
+  },
+  {
+    "qName": "КодСобытия",
+    "qCardinal": 36,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "События",
+      "Справочник_события"
+    ]
+  },
+  {
+    "qName": "КодЦех",
+    "qCardinal": 9,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "СправочникПаркТехники",
+      "СправочникЦеха"
+    ]
+  },
+  {
+    "qName": "КоличествоДней",
+    "qCardinal": 160,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "КоличествоМинут",
+    "qCardinal": 60,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "КоличествоСекунд",
+    "qCardinal": 60,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "МаксимальныйУклон",
+    "qCardinal": 18,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "Месяц",
+    "qCardinal": 6,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "Модель",
+    "qCardinal": 2,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "СправочникМодельТехники"
+    ]
+  },
+  {
+    "qName": "Название события",
+    "qCardinal": 18,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Справочник_события"
+    ]
+  },
+  {
+    "qName": "НазваниеГруппыЗагрузки",
+    "qCardinal": 4,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ЗагрузкаПоРейсам_136"
+    ]
+  },
+  {
+    "qName": "НазваниеГруппыЗагрузки_220",
+    "qCardinal": 4,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ЗагрузкаПоРейсам_220"
+    ]
+  },
+  {
+    "qName": "НазваниеГруппыПотерь",
+    "qCardinal": 3,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "ГруппаПотерь"
+    ]
+  },
+  {
+    "qName": "Неделя",
+    "qCardinal": 26,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "Нормативная загрузка",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "СправочникМодельТехники"
+    ]
+  },
+  {
+    "qName": "Нормативное время погрузки",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "СправочникМодельТехники"
+    ]
+  },
+  {
+    "qName": "Нормативное время разгрузки",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric"
+    ],
+    "qSrcTables": [
+      "СправочникМодельТехники"
+    ]
+  },
+  {
+    "qName": "ПаркТехники",
+    "qCardinal": 66,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "СправочникПаркТехники"
+    ]
+  },
+  {
+    "qName": "Полугодие",
+    "qCardinal": 1,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "Calendar"
+    ]
+  },
+  {
+    "qName": "ПорядокСортировки",
+    "qCardinal": 16,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "СводныйОтчет"
+    ]
+  },
+  {
+    "qName": "Предприятие",
+    "qCardinal": 15,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "СправочникПредприятия"
+    ]
+  },
+  {
+    "qName": "Производственные показатели",
+    "qCardinal": 16,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "СводныйОтчет"
+    ]
+  },
+  {
+    "qName": "Путь",
+    "qCardinal": 10812,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ПутьОтПогрузки",
+    "qCardinal": 9649,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "РазницаСекунд",
+    "qCardinal": 86400,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "СекундС1970",
+    "qCardinal": 3381706,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "Скорость",
+    "qCardinal": 63,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "СтатусГарантииТехники",
+    "qCardinal": 2,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "СправочникПаркТехники"
+    ]
+  },
+  {
+    "qName": "Топливо",
+    "qCardinal": 2693,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "ТопливоДвижения",
+    "qCardinal": 1663,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "Уклон",
+    "qCardinal": 51,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "Формула",
+    "qCardinal": 16,
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "СводныйОтчет"
+    ]
+  },
+  {
+    "qName": "ХозНомер",
+    "qCardinal": 139,
+    "qTags": [
+      "$numeric",
+      "$integer",
+      "$key"
+    ],
+    "qSrcTables": [
+      "События",
+      "СправочникПаркТехники"
+    ]
+  },
+  {
+    "qName": "Цех",
+    "qCardinal": 9,
+    "qTags": [
+      "$text"
+    ],
+    "qSrcTables": [
+      "СправочникЦеха"
+    ]
+  },
+  {
+    "qName": "Час",
+    "qCardinal": 24,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "События"
+    ]
+  },
+  {
+    "qName": "Шасси",
+    "qCardinal": 66,
+    "qTags": [
+      "$numeric",
+      "$integer"
+    ],
+    "qSrcTables": [
+      "СправочникПаркТехники"
+    ]
+  }
+]

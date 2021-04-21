@@ -1,0 +1,466 @@
+[
+  {
+    "qInfo": {
+      "qId": "0225bcac-bee1-4de2-8c97-3c49f9d3911f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTrackEmpty",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(if($(_Switcher)=1,((Sum([Путь])-Sum([ПутьОтПогрузки]))/1000) , ((Sum([Путь])-Sum([ПутьОтПогрузки]))/1000/Count(distinct ПаркТехники) )),'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "0d725c78-e91b-44cd-af93-81edcb54b0ff",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTypeModel_2",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "11f5ad63-03ad-4b86-bf7c-0b6942dbc8b1",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTypeModel_1",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "2f264a23-d74d-4df8-97d1-74e6fbe5c91c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "_Switcher",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "1",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "3115e44f-d575-4eac-94f0-6c39ab586c37",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAvgSpeed",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num((sum([Путь])/1000 )/ (Num#(Interval(SUm({< [КодСобытия]={'6'}, flgГруженый={'1'}>}  [ДельтаВСекРазгр])/86400, 'hh.mm')) \n\t\t\t\t+Num#(Interval(SUm({< [КодСобытия]={'6'}, [flgПорожний]={'1'}>}  [ДельтаВСекПорожний])/86400, 'hh.mm'))) ,'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "48d714c5-a4cf-44c3-a2e0-8d4c6cb6cec2",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "DateFinish",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "30.06.2019"
+  },
+  {
+    "qInfo": {
+      "qId": "51863549-7793-44b1-9ad3-6bae6efdb045",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "DateStart",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "01.01.2019",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "5848092d-98f1-48ee-b8b8-f4cfb33acdf0",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "YearDefault",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "2019",
+    "qIsScriptCreated": true
+  },
+  {
+    "qInfo": {
+      "qId": "69ce7d6f-bd82-4f09-912f-0f4c589186eb",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vCountTrucks",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Count(distinct [ПаркТехники])",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "757c5107-d898-4667-999a-4bcc1a03dd6f",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vKUC",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(sum( {$< KeyAction={\"=[ВесРазгрузкиУср]>0\"}>} ([ВесРазгрузкиУср]/ [Нормативная загрузка]))\n\t\t\t\t/Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0,00%')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "77030b44-4fd4-4327-8f35-321f4c6ace76",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vFlightDone",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "if($(_Switcher)=1,Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0') ,\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction)/Count(distinct ПаркТехники),'# ##0,00') )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "80048e83-c805-4b3d-9e69-48c2c52cab9e",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTimeEmbark",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "if($(_Switcher)=1,(Interval(Sum( {<[flgОжиданиеПогр]={'1'}>} Interval(ВремяПогр,'hh.mm')),'hh.mm')) ,\n   Round(Num#(Interval(Sum( {<[flgОжиданиеПогр]={'1'}>} Interval(ВремяПогр,'hh.mm')),'hh.mm'))/Count(distinct ПаркТехники),0.01))",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "874a932c-f5d6-4af8-8d26-46e9c21ae86c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAngle",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(Avg({<МаксимальныйУклон={\">0\"}>}[МаксимальныйУклон]),'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "88f9c251-0d8a-4600-8993-3125c3d24f82",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAvgTransportation",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": " Num(sum([ПутьОтПогрузки])/1000/Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "8cd8d202-993c-4f18-ae9a-8f273c30fb9d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vFuelConsumpPivot",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(\r\nSum({<ПаркТехники={\"=Sum(aggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))-sum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))+(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0')),[ПаркТехники],$(_Dim)))/Count(distinct ПаркТехники)>60\"}>} \naggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо))\n,[ПаркТехники],СекундС1970,[Производственные показатели]))\n-\nsum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),\n[ПаркТехники],СекундС1970,[Производственные показатели]))\n+\n(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)\n/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Count(distinct {<[КодСобытия]={'9'}>} KeyAction))\n,[ПаркТехники],$(_Dim),[Производственные показатели]))\n/Count({<ПаркТехники={\"=Sum(aggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))-sum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))+(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0')),[ПаркТехники],$(_Dim)))/Count(distinct ПаркТехники)>60\"}>} \ndistinct ПаркТехники)\n\n,'# ##0,00')\n\n/*Num(Sum({<ПаркТехники={\"=Sum(aggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,[Производственные показатели]))-sum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,[Производственные показатели]))+(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0')),[ПаркТехники],[Производственные показатели],$(_Dim)))/Count(distinct ПаркТехники)>60\"}>} \naggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,[Производственные показатели]))\n-\nsum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,[Производственные показатели]))\n+\n(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)\n/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0'))\n,[ПаркТехники],$(_Dim)))\n/Count({<ПаркТехники=\n{\"=Sum(aggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,[Производственные показатели]))-sum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,[Производственные показатели]))+(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0')),[ПаркТехники],[Производственные показатели],$(_Dim)))/Count(distinct ПаркТехники)>60\"}>} \ndistinct ПаркТехники)\n,'# ##0,00')*/\n\n\n\n\n\n\n\n\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "92fcdf66-0c89-4c8c-82a4-601a6811ea4a",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vCargoTurnover",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(if($(_Switcher)=1,Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000)/Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0'),\n\t\t\t\t\t\tSum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000)  /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0') /Count(distinct ПаркТехники)),'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "a0b3f5ed-e251-4525-aeda-434cd1767267",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAvgEmbark",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num( Sum(aggr(sum( ВесРазгрузкиУср)/Count(distinct {<[КодСобытия]={'9'}>} KeyAction),[ПаркТехники],$(_Dim)))\r\n /If(ПаркТехники=$(_Dim) , Only(aggr(Count(distinct ПаркТехники),[ПаркТехники])),\n Only(aggr(Count(distinct ПаркТехники),$(_Dim))))  ,'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "b0dadb84-6528-49dd-a2e5-291698d98f53",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vValueList",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "ValueList('Количество анализируемых самосвалов',\n'Количество выполненных рейсов', \n'Объем транспортировки', \n'Грузооборот',\n'Среднее расстояние транспортировки', \n'Средняя техническая скорость', \n'Продольный уклон дороги', \n'Общий пробег', \n'Пробег порожним',\n'Пробег груженым', \n'Коэффициент использования пробега',\n'Средняя загрузка',\n'Коэф. использования грузоподъемности', \n'Удельный расход ДТ',\n'Время ожидания погрузки и погрузка',\n'Время ожидания разгрузки и разгрузка')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "b1eb0f00-e052-4adb-bfa5-d39fb4424d62",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "_DimCalendar",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Месяц",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ba3459bc-c98d-4bb4-b725-e11517098fe7",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vKIO",
+    "qComment": "/*12,09,2019 заменили 22 часа на 24 часа*/",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "(Num#(Interval(SUm({<[КодСобытия]={'6'}, flgГруженый={'1'}>}  [ДельтаВСекРазгр])/86400, 'mm'))\r\n+\nNum#(Interval(SUm({<[КодСобытия]={'6'}, [flgПорожний]={'1'}>}  [ДельтаВСекПорожний])/86400, 'mm'))\n+\nnum#(\nInterval(\nSum( {<[flgОжиданиеПогр]={'1'}>} Interval(ВремяПогр,'mm'))\n+\nSum( {<[flgОжиданиеРазгр]={'1'}>} Interval(ВремяРазг,'mm')),'mm'))\n)\n/((count(distinct Дата)*24*60)*Count(distinct ПаркТехники) )\n\n\n\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "bdc5b3bc-367a-40b8-afcf-ac95121cf926",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vParkTechnic",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(Count(distinct ПаркТехники),'# ##0')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c2209b40-2fae-46a1-b472-268e8b8b1291",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "MonthDefault",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "июн."
+  },
+  {
+    "qInfo": {
+      "qId": "c395d85b-21a0-4bc1-b630-140b58e96d89",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vKUT",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(Sum([ПутьОтПогрузки])/(Sum([Путь]) ),'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c5e8fb6f-c6ce-489a-a18a-e8d5245c5ff4",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTransportation",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "if($(_Switcher)=1,Num(Sum([ВесРазгрузкиУср]),'# ##0') , Num(Sum([ВесРазгрузкиУср])/Count(distinct ПаркТехники),'# ##0,00') )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c716cf43-49a5-484e-81d1-e60718aab2cc",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vFuelConsump",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(\r\nSum({<ПаркТехники={\"=Sum(aggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))-sum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))+(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0')),[ПаркТехники],$(_Dim)))/Count(distinct ПаркТехники)>60\"}>} \naggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,$(_DimCalendar)))\n-\nsum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,$(_DimCalendar)))\n+\n(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)\n/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0'))\n,[ПаркТехники],$(_Dim),$(_DimCalendar)))\n/Count({<ПаркТехники={\"=Sum(aggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))-sum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))+(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0')),[ПаркТехники],$(_Dim)))/Count(distinct ПаркТехники)>60\"}>} \ndistinct ПаркТехники)\n,'# ##0,00')\n\n\n\n",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "c94a90bd-08cd-4f21-b510-7ba5825f266c",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "_Dim",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Предприятие",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ca8695b9-6740-45c4-ad0e-e963d60215b6",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTrackEmb",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(if($(_Switcher)=1,(Sum([ПутьОтПогрузки])/1000) ,(Sum([ПутьОтПогрузки])/1000/Count(distinct ПаркТехники))),'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "cae8da27-95a6-4f1e-9f3e-e70343ace6e8",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTracFull",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(if($(_Switcher)=1,(Sum(Путь)/1000) , (Sum(Путь)/1000/Count(distinct ПаркТехники) )),'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "ccee6cb2-a2a5-4221-b7ab-c8ed8fe2d05d",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vTimeDisload",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "if($(_Switcher)=1,Interval(Sum( {<[flgОжиданиеРазгр]={'1'}>} Interval(ВремяРазг,'hh.mm')),'hh.mm') ,\n    \t\t\tRound(Num#(Interval(Sum( {<[flgОжиданиеРазгр]={'1'}>} Interval(ВремяРазг,'hh.mm')),'hh.mm'))/Count(distinct ПаркТехники),0.01 )\n   )",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "cfd666d9-5623-4b2d-85d6-255241ac6dc5",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "vAvgEmbarkPivot",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "Num(Sum(aggr(sum( ВесРазгрузкиУср)/Count(distinct {<[КодСобытия]={'9'}>} KeyAction),[ПаркТехники],$(_Dim),[Производственные показатели]))\r\n /If(ПаркТехники=$(_Dim) , Only(aggr(Count(distinct ПаркТехники),[ПаркТехники],[Производственные показатели])),\n Only(aggr(Count(distinct ПаркТехники),$(_Dim),[Производственные показатели])))\n  ,'# ##0,00')",
+    "tags": []
+  },
+  {
+    "qInfo": {
+      "qId": "d10f1494-9c79-490f-b49d-3cea4c0b92ef",
+      "qType": "variable"
+    },
+    "qMetaDef": {},
+    "qName": "PathQVD",
+    "qNumberPresentation": {
+      "qType": "U",
+      "qnDec": 10,
+      "qUseThou": 0
+    },
+    "qDefinition": "lib://ETL (a2cdemo_admin)/",
+    "qIsScriptCreated": true
+  }
+]

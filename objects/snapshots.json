@@ -1,0 +1,367 @@
+[
+  {
+    "qInfo": {
+      "qId": "611bc0c1-dda8-4a5d-8801-a01ba989d78e",
+      "qType": "snapshot"
+    },
+    "qMetaDef": {
+      "title": "",
+      "description": "",
+      "annotation": ""
+    },
+    "creationDate": "2019-08-14T07:48:23.926Z",
+    "qMeta": {
+      "privileges": [
+        "read",
+        "update",
+        "delete",
+        "exportdata"
+      ]
+    },
+    "qSelectionInfo": {},
+    "qLibraryId": "",
+    "qDef": {
+      "autoSort": true,
+      "cId": "",
+      "othersLabel": "Другие"
+    },
+    "qNullSuppression": false,
+    "qOtherTotalSpec": {
+      "qOtherMode": "OTHER_OFF",
+      "qOtherSortMode": "OTHER_SORT_DESCENDING",
+      "qOtherCounted": {
+        "qv": "10"
+      },
+      "qOtherLimitMode": "OTHER_GE_LIMIT",
+      "qOtherLimit": {
+        "qv": "0"
+      },
+      "qSuppressOther": false
+    },
+    "qOtherLabel": "Другие",
+    "qHyperCube": {
+      "qSize": {
+        "qcx": 3,
+        "qcy": 1
+      },
+      "qDimensionInfo": [],
+      "qMeasureInfo": [
+        {
+          "qFallbackTitle": "Количество техники",
+          "qApprMaxGlyphCount": 1,
+          "qCardinal": 0,
+          "qSortIndicator": "D",
+          "qNumFormat": {
+            "qType": "I",
+            "qnDec": 0,
+            "qUseThou": 1,
+            "qFmt": "###0",
+            "qDec": ","
+          },
+          "qMin": 1,
+          "qMax": 1,
+          "qIsAutoFormat": true,
+          "qAttrExprInfo": [
+            {
+              "qMin": "NaN",
+              "qMax": "NaN",
+              "qNumFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              }
+            }
+          ],
+          "qAttrDimInfo": [],
+          "qTrendLines": [],
+          "autoSort": true,
+          "cId": "GFGjbe",
+          "numFormatFromTemplate": true,
+          "autoFormatTemplate": "0A",
+          "labelColor": "#E0FFFF",
+          "valueColor": "#FFFF00",
+          "useLink": false,
+          "kpiLink": "",
+          "hideLabel": false,
+          "hideValue": false,
+          "groupByDimension": false,
+          "groupByDimensionValue": "",
+          "ovParams": true,
+          "size": "small",
+          "labelOrientation": "",
+          "labelOrder": "first",
+          "fontStyles": "bold",
+          "textAlignment": "right",
+          "valueIcon": "",
+          "iconPosition": "label",
+          "iconOrder": "first",
+          "iconSize": "",
+          "infographic": false,
+          "embeddedItem": ""
+        },
+        {
+          "qFallbackTitle": "Количество рейсов",
+          "qApprMaxGlyphCount": 5,
+          "qCardinal": 0,
+          "qSortIndicator": "D",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "# ##0",
+            "qDec": ",",
+            "qThou": " "
+          },
+          "qMin": 3972,
+          "qMax": 3972,
+          "qAttrExprInfo": [
+            {
+              "qMin": "NaN",
+              "qMax": "NaN",
+              "qNumFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              }
+            }
+          ],
+          "qAttrDimInfo": [],
+          "qTrendLines": [],
+          "autoSort": true,
+          "cId": "mpaapam",
+          "numFormatFromTemplate": true,
+          "autoFormatTemplate": "0A",
+          "labelColor": "#E0FFFF",
+          "valueColor": "#FFFF00",
+          "useLink": false,
+          "kpiLink": {
+            "id": "",
+            "title": ""
+          },
+          "groupByDimension": false,
+          "groupByDimensionValue": "",
+          "ovParams": true,
+          "size": "small",
+          "hideLabel": false,
+          "labelOrientation": "",
+          "labelOrder": "first",
+          "fontStyles": "bold",
+          "textAlignment": "right",
+          "valueIcon": "",
+          "iconPosition": "label",
+          "iconOrder": "first",
+          "iconSize": "",
+          "infographic": false,
+          "embeddedItem": "",
+          "isCustomFormatted": false
+        },
+        {
+          "qFallbackTitle": "Рейсы с недогрузом",
+          "qApprMaxGlyphCount": 5,
+          "qCardinal": 0,
+          "qSortIndicator": "D",
+          "qNumFormat": {
+            "qType": "F",
+            "qnDec": 2,
+            "qUseThou": 0,
+            "qFmt": "# ##0",
+            "qDec": ",",
+            "qThou": " "
+          },
+          "qMin": 3284,
+          "qMax": 3284,
+          "qAttrExprInfo": [
+            {
+              "qMin": "NaN",
+              "qMax": "NaN",
+              "qNumFormat": {
+                "qType": "U",
+                "qnDec": 10,
+                "qUseThou": 0
+              }
+            }
+          ],
+          "qAttrDimInfo": [],
+          "qTrendLines": [],
+          "autoSort": true,
+          "cId": "FUPLH",
+          "numFormatFromTemplate": true,
+          "autoFormatTemplate": "0A",
+          "labelColor": "#E0FFFF",
+          "valueColor": "#FFFF00",
+          "useLink": false,
+          "kpiLink": "",
+          "hideLabel": false,
+          "hideValue": false,
+          "groupByDimension": false,
+          "groupByDimensionValue": "",
+          "ovParams": true,
+          "size": "small",
+          "labelOrientation": "",
+          "labelOrder": "first",
+          "fontStyles": "bold",
+          "textAlignment": "right",
+          "valueIcon": "",
+          "iconPosition": "label",
+          "iconOrder": "first",
+          "iconSize": "",
+          "infographic": false,
+          "embeddedItem": "",
+          "isCustomFormatted": false
+        }
+      ],
+      "qEffectiveInterColumnSortOrder": [
+        0,
+        1,
+        2
+      ],
+      "qGrandTotalRow": [
+        {
+          "qText": "1",
+          "qNum": 1,
+          "qElemNumber": -1,
+          "qState": "X",
+          "qIsTotalCell": true
+        },
+        {
+          "qText": "3 972",
+          "qNum": 3972,
+          "qElemNumber": -1,
+          "qState": "X",
+          "qIsTotalCell": true
+        },
+        {
+          "qText": "3 284",
+          "qNum": 3284,
+          "qElemNumber": -1,
+          "qState": "X",
+          "qIsTotalCell": true
+        }
+      ],
+      "qDataPages": [
+        {
+          "qMatrix": [
+            [
+              {
+                "qText": "1",
+                "qNum": 1,
+                "qElemNumber": 0,
+                "qState": "L",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "3 972",
+                "qNum": 3972,
+                "qElemNumber": 0,
+                "qState": "L",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              },
+              {
+                "qText": "3 284",
+                "qNum": 3284,
+                "qElemNumber": 0,
+                "qState": "L",
+                "qAttrExps": {
+                  "qValues": [
+                    {
+                      "qNum": "NaN"
+                    }
+                  ]
+                }
+              }
+            ]
+          ],
+          "qTails": [],
+          "qArea": {
+            "qLeft": 0,
+            "qTop": 0,
+            "qWidth": 3,
+            "qHeight": 1
+          }
+        }
+      ],
+      "qPivotDataPages": [],
+      "qStackedDataPages": [],
+      "qMode": "S",
+      "qNoOfLeftDims": -1,
+      "qTreeNodesOnDim": [],
+      "qColumnOrder": [],
+      "customErrorMessage": {
+        "calcCond": ""
+      }
+    },
+    "showTitles": false,
+    "title": "",
+    "subtitle": "",
+    "footnote": "",
+    "showDetails": false,
+    "options": {
+      "dimShowAs": "segment",
+      "dimDivideBy": "two",
+      "dimensionsOrientation": "vertical",
+      "dimLabelOrientation": "top attached",
+      "dimLabelSize": "small",
+      "dimHideLabels": false,
+      "dimCenteredLabels": false,
+      "dimHideBorders": false,
+      "dimHideInternalBorders": false,
+      "labelOrientation": "",
+      "labelOrder": "first",
+      "size": "small",
+      "autoSize": false,
+      "divideBy": "one",
+      "backgroundColor": "#2185d0",
+      "verticalAlign": "stretched-items",
+      "styles": ""
+    },
+    "visualization": "qsSimpleKPI",
+    "version": 1,
+    "extensionMeta": {
+      "translationKey": "",
+      "icon": "kpi",
+      "iconChar": "g",
+      "isLibraryItem": true,
+      "visible": true,
+      "name": "Simple KPI",
+      "description": "Simple KPI",
+      "template": "qsSimpleKPI",
+      "isThirdParty": true,
+      "preview": "preview.png",
+      "type": "visualization",
+      "version": "1.1.3",
+      "author": "Alexander Nerush",
+      "previewIconURL": "https://178.159.45.105/extensions/qsSimpleKPI/preview.png"
+    },
+    "snapshotData": {
+      "object": {
+        "size": {
+          "w": 254,
+          "h": 371
+        }
+      },
+      "rtl": false,
+      "parent": {
+        "h": 545,
+        "w": 1366
+      }
+    },
+    "visualizationType": "qsSimpleKPI",
+    "sourceObjectId": "PkbKpr",
+    "sheetId": "c6fd58e8-5f19-4ebc-ae26-943a5012ae67",
+    "timestamp": 1565768903870,
+    "isClone": false,
+    "supportExport": true
+  }
+]

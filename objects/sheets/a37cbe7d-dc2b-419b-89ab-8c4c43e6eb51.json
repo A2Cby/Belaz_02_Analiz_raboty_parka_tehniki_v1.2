@@ -1,0 +1,1093 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "a37cbe7d-dc2b-419b-89ab-8c4c43e6eb51",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Отборы",
+      "description": ""
+    },
+    "rank": -2.125,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/c7321419-9119-441a-89aa-4f8b5400d7e5/Без названия.jpg"
+      }
+    },
+    "columns": 36,
+    "rows": 18,
+    "cells": [
+      {
+        "name": "ae2eadba-827c-48ae-bac0-2218d446c5f1",
+        "type": "filterpane",
+        "col": 30,
+        "row": 0,
+        "colspan": 3,
+        "rowspan": 2,
+        "bounds": {
+          "y": 0,
+          "x": 83.33333333333334,
+          "width": 8.333333333333332,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "e4dbdbfc-0830-4f31-a72a-c84c015eec0f",
+        "type": "auto-chart",
+        "col": 26,
+        "row": 3,
+        "colspan": 9,
+        "rowspan": 15,
+        "bounds": {
+          "y": 16.666666666666664,
+          "x": 72.22222222222221,
+          "width": 25,
+          "height": 83.33333333333334
+        }
+      },
+      {
+        "name": "261c3ff8-3269-4993-942a-2eb5564e7b76",
+        "type": "auto-chart",
+        "col": 11,
+        "row": 3,
+        "colspan": 6,
+        "rowspan": 15,
+        "bounds": {
+          "y": 16.666666666666664,
+          "x": 30.555555555555557,
+          "width": 16.666666666666664,
+          "height": 83.33333333333334
+        }
+      },
+      {
+        "name": "81860c36-1688-4a41-aa7a-e2dbd62c2b56",
+        "type": "auto-chart",
+        "col": 0,
+        "row": 3,
+        "colspan": 10,
+        "rowspan": 15,
+        "bounds": {
+          "y": 16.666666666666664,
+          "x": 0,
+          "width": 27.77777777777778,
+          "height": 83.33333333333334
+        }
+      },
+      {
+        "name": "6d192fa9-c253-4ce3-a9de-bbd9094bd334",
+        "type": "auto-chart",
+        "col": 18,
+        "row": 3,
+        "colspan": 7,
+        "rowspan": 15,
+        "bounds": {
+          "y": 16.666666666666664,
+          "x": 50,
+          "width": 19.444444444444446,
+          "height": 83.33333333333334
+        }
+      },
+      {
+        "name": "94827a12-f5df-4646-b40d-d1ede8b72388",
+        "type": "senseFieldUI",
+        "col": 0,
+        "row": 0,
+        "colspan": 6,
+        "rowspan": 2,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 16.666666666666664,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "22b9ffc1-3e79-4708-9027-3dedd8edcee9",
+        "type": "senseFieldUI",
+        "col": 7,
+        "row": 0,
+        "colspan": 23,
+        "rowspan": 2,
+        "bounds": {
+          "y": 0,
+          "x": 19.444444444444446,
+          "width": 63.888888888888886,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "87eb0740-233a-4db7-b87f-12ae5caed487",
+        "type": "DateRangePicker",
+        "col": 33,
+        "row": 0,
+        "colspan": 3,
+        "rowspan": 2,
+        "bounds": {
+          "y": 0,
+          "x": 91.66666666666666,
+          "width": 8.333333333333332,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "FHtkUhT",
+        "type": "senseFieldUI",
+        "col": 17,
+        "row": 16,
+        "colspan": 1,
+        "rowspan": 1,
+        "bounds": {
+          "y": 88.88888888888889,
+          "x": 47.22222222222222,
+          "width": 2.7777777777777777,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "RDDYLvJ",
+        "type": "senseFieldUI",
+        "col": 17,
+        "row": 17,
+        "colspan": 1,
+        "rowspan": 1,
+        "bounds": {
+          "y": 94.44444444444444,
+          "x": 47.22222222222222,
+          "width": 2.7777777777777777,
+          "height": 5.555555555555555
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "large"
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "FHtkUhT",
+          "qType": "senseFieldUI"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Год"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 10000
+            }
+          ],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "vars": {
+          "StyleOverride": "Dropdown",
+          "ListType": "inline",
+          "selectedColor": 2,
+          "btnSize": "btn-xs",
+          "btnSpan": true,
+          "iconOnly": false,
+          "iconButton": "hand-peace-o,heart-o,smile-o,beer,gamepad,paw,diamond",
+          "dropMultiSelect": false,
+          "dropMultiSelectSize": 7,
+          "chbxStyle": " ",
+          "Defaulthighlight": true,
+          "Defaulthighlightvalue": "=$(YearDefault)",
+          "hiddenField": true
+        },
+        "disableFullScreen": true,
+        "visualization": "senseFieldUI",
+        "version": 1,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Field UI",
+          "description": "Manage how fields are viewed in the UI",
+          "template": "senseFieldUI",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "preview": "preview.png",
+          "author": "Alex Byrd",
+          "keywords": "qlik-sense, extension, bootstrap, font-awesome, dropdown, checkbox, button, radio",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/senseFieldUI/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "6d192fa9-c253-4ce3-a9de-bbd9094bd334",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qLayoutExclude": {}
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "88660f93-7c3d-4796-9031-2d6ac5704286",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Модель"
+                ],
+                "qFieldLabels": [
+                  "Модель"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qNullSuppression": false,
+              "qIncludeElemValue": false,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": ""
+                },
+                "qOtherLimit": {
+                  "qv": ""
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qSuppressOther": false,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qGlobalOtherGrouping": false,
+                "qOtherCollapseInnerDimensions": false,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {
+                  "qv": ""
+                }
+              },
+              "qShowTotal": false,
+              "qShowAll": false,
+              "qOtherLabel": {
+                "qv": ""
+              },
+              "qTotalLabel": {
+                "qv": ""
+              },
+              "qCalcCond": {
+                "qv": ""
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {
+                  "qv": ""
+                },
+                "qMsg": {
+                  "qv": ""
+                }
+              }
+            },
+            "title": "Модель",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "261c3ff8-3269-4993-942a-2eb5564e7b76",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qLayoutExclude": {}
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "cafd6b00-254f-48ea-973f-234f2dc849d7",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Цех"
+                ],
+                "qFieldLabels": [
+                  "Цех"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qNullSuppression": false,
+              "qIncludeElemValue": false,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": ""
+                },
+                "qOtherLimit": {
+                  "qv": ""
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qSuppressOther": false,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qGlobalOtherGrouping": false,
+                "qOtherCollapseInnerDimensions": false,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {
+                  "qv": ""
+                }
+              },
+              "qShowTotal": false,
+              "qShowAll": false,
+              "qOtherLabel": {
+                "qv": ""
+              },
+              "qTotalLabel": {
+                "qv": ""
+              },
+              "qCalcCond": {
+                "qv": ""
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {
+                  "qv": ""
+                },
+                "qMsg": {
+                  "qv": ""
+                }
+              }
+            },
+            "title": "Цех",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "81860c36-1688-4a41-aa7a-e2dbd62c2b56",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qLayoutExclude": {}
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "8af52490-50d1-4796-8d73-2e34e3ab03a4",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Предприятие"
+                ],
+                "qFieldLabels": [
+                  "Предприятие"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qNullSuppression": false,
+              "qIncludeElemValue": false,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": ""
+                },
+                "qOtherLimit": {
+                  "qv": ""
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qSuppressOther": false,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qGlobalOtherGrouping": false,
+                "qOtherCollapseInnerDimensions": false,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {
+                  "qv": ""
+                }
+              },
+              "qShowTotal": false,
+              "qShowAll": false,
+              "qOtherLabel": {
+                "qv": ""
+              },
+              "qTotalLabel": {
+                "qv": ""
+              },
+              "qCalcCond": {
+                "qv": ""
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {
+                  "qv": ""
+                },
+                "qMsg": {
+                  "qv": ""
+                }
+              }
+            },
+            "title": "Предприятие",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "ae2eadba-827c-48ae-bac0-2218d446c5f1",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane"
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "0db02405-d4ba-4c63-b410-487cd1319961",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Дата"
+                ],
+                "qFieldLabels": [
+                  "Дата"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true,
+                "cId": "LfCjxq"
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qOtherTotalSpec": {}
+            },
+            "showTitles": true,
+            "title": "Дата",
+            "subtitle": "",
+            "footnote": "",
+            "showDetails": false,
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "22b9ffc1-3e79-4708-9027-3dedd8edcee9",
+          "qType": "senseFieldUI"
+        },
+        "qMetaDef": {},
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "senseFieldUI",
+        "version": 1,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Field UI",
+          "description": "Manage how fields are viewed in the UI",
+          "template": "senseFieldUI",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "preview": "preview.png",
+          "author": "Alex Byrd",
+          "keywords": "qlik-sense, extension, bootstrap, font-awesome, dropdown, checkbox, button, radio",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/senseFieldUI/preview.png"
+        },
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Месяц"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 10000
+            }
+          ],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByState": 1
+          }
+        },
+        "vars": {
+          "StyleOverride": "Button",
+          "ListType": "inline",
+          "selectedColor": 2,
+          "btnSize": "btn-xs",
+          "btnSpan": true,
+          "iconOnly": false,
+          "iconButton": "hand-peace-o,heart-o,smile-o,beer,gamepad,paw,diamond",
+          "dropMultiSelect": false,
+          "dropMultiSelectSize": 7,
+          "chbxStyle": " ",
+          "Defaulthighlight": false,
+          "Defaulthighlightvalue": "июн.",
+          "hiddenField": false
+        },
+        "disableFullScreen": false
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "94827a12-f5df-4646-b40d-d1ede8b72388",
+          "qType": "senseFieldUI"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Год"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 10000
+            }
+          ],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "vars": {
+          "StyleOverride": "Button",
+          "ListType": "inline",
+          "selectedColor": 2,
+          "btnSize": "btn-xs",
+          "btnSpan": true,
+          "iconOnly": false,
+          "iconButton": "hand-peace-o,heart-o,smile-o,beer,gamepad,paw,diamond",
+          "dropMultiSelect": false,
+          "dropMultiSelectSize": 7,
+          "chbxStyle": " ",
+          "Defaulthighlight": false,
+          "Defaulthighlightvalue": "=$(YearDefault)",
+          "hiddenField": false
+        },
+        "disableFullScreen": false,
+        "visualization": "senseFieldUI",
+        "version": 1,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Field UI",
+          "description": "Manage how fields are viewed in the UI",
+          "template": "senseFieldUI",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "preview": "preview.png",
+          "author": "Alex Byrd",
+          "keywords": "qlik-sense, extension, bootstrap, font-awesome, dropdown, checkbox, button, radio",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/senseFieldUI/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "RDDYLvJ",
+          "qType": "senseFieldUI"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Месяц"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 10000
+            }
+          ],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "vars": {
+          "StyleOverride": "Dropdown",
+          "ListType": "inline",
+          "selectedColor": 2,
+          "btnSize": "btn-xs",
+          "btnSpan": true,
+          "iconOnly": false,
+          "iconButton": "hand-peace-o,heart-o,smile-o,beer,gamepad,paw,diamond",
+          "dropMultiSelect": false,
+          "dropMultiSelectSize": 7,
+          "chbxStyle": " ",
+          "Defaulthighlight": true,
+          "Defaulthighlightvalue": "июн.",
+          "hiddenField": true
+        },
+        "disableFullScreen": true,
+        "visualization": "senseFieldUI",
+        "version": 1,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Field UI",
+          "description": "Manage how fields are viewed in the UI",
+          "template": "senseFieldUI",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "preview": "preview.png",
+          "author": "Alex Byrd",
+          "keywords": "qlik-sense, extension, bootstrap, font-awesome, dropdown, checkbox, button, radio",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/senseFieldUI/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "e4dbdbfc-0830-4f31-a72a-c84c015eec0f",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qLayoutExclude": {}
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "e3f3b7c6-4754-4fd3-89d8-4b64324d5bba",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "ПаркТехники"
+                ],
+                "qFieldLabels": [
+                  "Парк техники"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qNullSuppression": false,
+              "qIncludeElemValue": false,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": ""
+                },
+                "qOtherLimit": {
+                  "qv": ""
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qSuppressOther": false,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qGlobalOtherGrouping": false,
+                "qOtherCollapseInnerDimensions": false,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {
+                  "qv": ""
+                }
+              },
+              "qShowTotal": false,
+              "qShowAll": false,
+              "qOtherLabel": {
+                "qv": ""
+              },
+              "qTotalLabel": {
+                "qv": ""
+              },
+              "qCalcCond": {
+                "qv": ""
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {
+                  "qv": ""
+                },
+                "qMsg": {
+                  "qv": ""
+                }
+              }
+            },
+            "title": "Парк техники",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "87eb0740-233a-4db7-b87f-12ae5caed487",
+          "qType": "DateRangePicker"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Дата"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByNumeric": 1,
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "isSingleDate": false,
+          "minDate": "",
+          "maxDate": "",
+          "startDate": "",
+          "CustomRangesEnabled": true,
+          "locale": "ru",
+          "format": "DD.MM.YYYY",
+          "separator": " - ",
+          "customRangeLabel": "Произвольный",
+          "defaultText": "Календарь",
+          "today": "Сегодня",
+          "yesterday": "Вчера",
+          "lastXDays": "Последние $ дней",
+          "thisMonth": "Текущий месяц",
+          "lastMonth": "Прошлый месяц"
+        },
+        "visualization": "DateRangePicker",
+        "version": 1,
+        "fixed": true,
+        "width": 25,
+        "percent": true,
+        "selectionMode": "CONFIRM",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "table",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "DateRangePicker",
+          "description": "DateRangePicker",
+          "template": "DateRangePicker",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.1.4",
+          "preview": "preview.png",
+          "author": "Nodier Torres",
+          "homepage": "http://branch.qlik.com/#/project/5697a878dcc497f80ed514bf",
+          "keywords": "qlik-sense, visualization",
+          "license": "",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/DateRangePicker/preview.png"
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}

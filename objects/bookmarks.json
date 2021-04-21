@@ -1,0 +1,70 @@
+[
+  {
+    "qInfo": {
+      "qId": "d7d15d08-99d2-4957-b7b2-02f2178eedbd",
+      "qType": "bookmark"
+    },
+    "qMetaDef": {
+      "title": "Даты",
+      "description": ""
+    },
+    "creationDate": "2019-08-20T07:44:20.423Z",
+    "sheetId": "a37cbe7d-dc2b-419b-89ab-8c4c43e6eb51",
+    "selectionFields": "Год, Месяц",
+    "qData": {
+      "qBookMark": {
+        "qStateData": [
+          {
+            "qStateName": "$",
+            "qFieldItems": [
+              {
+                "qDef": {
+                  "qName": "Год",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qTextSearch": "=$(YearDefault)",
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "I",
+                    "qnDec": 0,
+                    "qUseThou": 0,
+                    "qFmt": "###0",
+                    "qDec": ","
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              },
+              {
+                "qDef": {
+                  "qName": "Месяц",
+                  "qType": "PRESENT"
+                },
+                "qSelectInfo": {
+                  "qRangeLo": "NaN",
+                  "qRangeHi": "NaN",
+                  "qNumberFormat": {
+                    "qType": "U",
+                    "qnDec": 10,
+                    "qUseThou": 0
+                  },
+                  "qRangeInfo": [],
+                  "qContinuousRangeInfo": []
+                },
+                "qValues": [],
+                "qExcludedValues": []
+              }
+            ]
+          }
+        ],
+        "qUtcModifyTime": 43697.44746527778,
+        "qVariableItems": [],
+        "qPatches": []
+      }
+    }
+  }
+]

@@ -1,0 +1,391 @@
+[
+  {
+    "qInfo": {
+      "qId": "BZQqMJ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-53 Нормативная загрузка",
+      "qDef": "sum([Нормативная загрузка])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-53 Нормативная загрузка",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "DvQpbn",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-12 Недогруз по рейсам <= 129 т",
+      "qDef": "sum( {$< KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>0\"}>} RangeSum([Нормативная загрузка], -[ВесРазгрузкиУср]))\r\n/Count(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} KeyAction)*\nCount(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} KeyAction)\n\n\n//sum( {$< KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"}>} RangeSum([Нормативная загрузка], -[ВесРазгрузкиУср]))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-12 Недогруз по рейсам <= 129 т",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "FCKHpB",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-34 Объем перевозки",
+      "qDef": "sum( ВесРазгрузкиУср)/Count(distinct {<[КодСобытия]={'9'}>} KeyAction)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-34 Объем перевозки",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "KCSZmZ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-09 Расстояние с загрузкой <= 129 т",
+      "qDef": "sum( {< KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} [ПутьОтПогрузки])/Count(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} KeyAction)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-09 Расстояние с загрузкой <= 129 т",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "KYFtEEs",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-03 Количество рейсов <= 129 т",
+      "qDef": "Count(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} KeyAction)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-03 Количество рейсов <= 129 т",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "KqCRAjB",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-06 Средняя загрузка по рейсам <= 129 т",
+      "qDef": "sum( {$< KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} [ВесРазгрузкиУср])/Count(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} KeyAction)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-06 Средняя загрузка по рейсам <= 129 т",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "LmBmm",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-50 Путь от погрузки",
+      "qDef": "sum([ПутьОтПогрузки])",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-50 Путь от погрузки",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "PpNpjf",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-02 Количество рейсов",
+      "qDef": "Count(distinct {<[КодСобытия]={'9'}>} KeyAction)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-02 Количество рейсов",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "QNGkSta",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Отклонение (ч)",
+      "qDef": " (num# ( if($(_Switcher)=1,Interval(Sum( {<[flgОжиданиеРазгр]={'1'}>} Interval(ВремяРазг,'mm')),'mm') ,\r\n    Round(Num#(Interval(Sum( {<[flgОжиданиеРазгр]={'1'}>} Interval(ВремяРазг,'mm')),'mm'))/Count(distinct ПаркТехники),0.01 )\n   ))\n-  Sum([Нормативное время разгрузки]) * if($(_Switcher)=1,Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0') ,\n Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction)/Count(distinct ПаркТехники),'# ##0,00') ) \n )/60\n   /*\n   \n   \n   ( num#(if($(_Switcher)=1,(Interval(Sum( {<[flgОжиданиеПогр]={'1'}>} Interval(ВремяПогр,'mm')),'mm')) ,\n   Round(Num#(Interval(Sum( {<[flgОжиданиеПогр]={'1'}>} Interval(ВремяПогр,'mm')),'mm'))/Count(distinct ПаркТехники),0.01)\n   ))\n   -\n   Sum([Нормативное время погрузки]) *\nif($(_Switcher)=1,Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0') ,\n Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction)/Count(distinct ПаркТехники),'# ##0,00') )\n\n)/60*/",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {
+        "baseColor": {
+          "color": "#276e27",
+          "index": 3
+        }
+      }
+    },
+    "qMetaDef": {
+      "title": "Отклонение (ч)",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "RKjSJpb",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "ex-32 Среднетехническая скорость",
+      "qDef": "sum([ПутьОтПогрузки])/\r\n(Interval(Sum( {<[КодСобытия]={'9'}>} Interval([ВремяГруженый],'hh.mm')),'hh.mm')+Interval(Sum( {<[КодСобытия]={'6'}>} Interval(ВремяПорожний,'hh.mm')),'hh.mm'))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "ex-32 Среднетехническая скорость",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "TeZPsj",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Простой в ожидании, ч",
+      "qDef": "Interval(Sum( {<[flgОжиданиеПогр]={'1'}>} Interval(ВремяПогр,'hh.mm'))\r\n+Sum( {<[flgОжиданиеРазгр]={'1'}>} Interval(ВремяРазг,'hh.mm')),'hh.mm')",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Простой в ожидании, ч",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "apJZzmT",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-54 Время в движении",
+      "qDef": "Interval(Sum( {<[КодСобытия]={'9'}>} Interval([ВремяГруженый],'hh.mm')),'hh.mm')+Interval(Sum( {<[КодСобытия]={'6'}>} Interval(ВремяПорожний,'hh.mm')),'hh.mm')",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-54 Время в движении",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "cPMrjc",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-15 Потери по рейсам <= 129 т, (т(км))",
+      "qDef": "(sum( {$< KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"}>} [ПутьОтПогрузки])/\r\nCount(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"} >} KeyAction))/1000\n*\n(sum( {$< KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"}>} RangeSum([Нормативная загрузка], -[ВесРазгрузкиУср]))\n/Count(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"} >} KeyAction)*\nCount(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"}  >} KeyAction))",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-15 Потери по рейсам <= 129 т, (т(км))",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "gepQ",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Расстояние с <= 129",
+      "qDef": "sum( {< [ВесРазгрузкиУср]={\"<=129\"}>} [ПутьОтПогрузки])/Count(distinct {<[КодСобытия]={'9'}>} KeyAction)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Расстояние с <= 129",
+      "description": "Ex-09",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "jMpVg",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-18 Потери в себестоимости по рейсам <= 129 т, у.е.",
+      "qDef": "(sum( {$< KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"}>} [ПутьОтПогрузки])/\r\nCount(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"} >} KeyAction))/1000\n*\n(sum( {$< KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"}>} RangeSum([Нормативная загрузка], -[ВесРазгрузкиУср]))\n/Count(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"} >} KeyAction)*\nCount(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср] <=129\"}*{\"=[ВесРазгрузкиУср]>=[Нормативная загрузка]*0.1\"}  >} KeyAction))*\n0.19\n\n/*\n(sum( {< KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} [ПутьОтПогрузки])/Count(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} KeyAction))/1000\n*\n(sum( {$< KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} RangeSum([Нормативная загрузка], -[ВесРазгрузкиУср]))\n/Count(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} KeyAction)*\nCount(distinct {<[КодСобытия]={'9'} , KeyAction={\"=[ВесРазгрузкиУср]<=129\"} >} KeyAction))*\n0.19\n*/",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-18 Потери в себестоимости по рейсам <= 129 т, у.е.",
+      "description": "",
+      "tags": []
+    }
+  },
+  {
+    "qInfo": {
+      "qId": "qrPbejq",
+      "qType": "measure"
+    },
+    "qMeasure": {
+      "qLabel": "Ex-49 Усредненный вес на загрузке",
+      "qDef": "avg( ВесРазгрузкиУср)",
+      "qGrouping": "N",
+      "qExpressions": [],
+      "qActiveExpression": 0,
+      "qNumFormat": {
+        "qType": "U",
+        "qnDec": 10,
+        "qUseThou": 0
+      },
+      "coloring": {}
+    },
+    "qMetaDef": {
+      "title": "Ex-49 Усредненный вес на загрузке",
+      "description": "",
+      "tags": []
+    }
+  }
+]

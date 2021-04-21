@@ -1,0 +1,2691 @@
+{
+  "qProperty": {
+    "qInfo": {
+      "qId": "9cb09ab8-4876-49e2-81ea-88ca802add06",
+      "qType": "sheet"
+    },
+    "qMetaDef": {
+      "title": "Анализ эксплуатации",
+      "description": ""
+    },
+    "rank": -0.65625,
+    "thumbnail": {
+      "qStaticContentUrlDef": {
+        "qUrl": "/appcontent/c7321419-9119-441a-89aa-4f8b5400d7e5/Без названия.jpg"
+      }
+    },
+    "columns": 36,
+    "rows": 18,
+    "cells": [
+      {
+        "name": "c3201633-751d-4ea3-b132-d85c8460d97c",
+        "type": "variable",
+        "col": 2,
+        "row": 2,
+        "colspan": 5,
+        "rowspan": 2,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 5.555555555555555,
+          "width": 13.88888888888889,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "d58da472-6360-4c0b-b84f-e6bac27cf784",
+        "type": "text-image",
+        "col": 0,
+        "row": 2,
+        "colspan": 2,
+        "rowspan": 2,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 0,
+          "width": 5.555555555555555,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "c93261b1-f9a0-439f-aeb3-2d17a8226e3c",
+        "type": "variable",
+        "col": 31,
+        "row": 2,
+        "colspan": 5,
+        "rowspan": 2,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 86.11111111111111,
+          "width": 13.88888888888889,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "445d4520-3752-4dcb-a42e-a09408dbd44e",
+        "type": "text-image",
+        "col": 27,
+        "row": 2,
+        "colspan": 4,
+        "rowspan": 2,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 75,
+          "width": 11.11111111111111,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "51147c5b-b902-4f3b-853a-076874ff3d1b",
+        "type": "linechart",
+        "col": 0,
+        "row": 11,
+        "colspan": 18,
+        "rowspan": 7,
+        "bounds": {
+          "y": 61.111111111111114,
+          "x": 0,
+          "width": 50,
+          "height": 38.88888888888889
+        }
+      },
+      {
+        "name": "38bd3558-55b0-41e8-806a-65014b4c7656",
+        "type": "linechart",
+        "col": 0,
+        "row": 6,
+        "colspan": 18,
+        "rowspan": 5,
+        "bounds": {
+          "y": 33.33333333333333,
+          "x": 0,
+          "width": 50,
+          "height": 27.77777777777778
+        }
+      },
+      {
+        "name": "b964c431-ef31-432e-a26b-7336105169bd",
+        "type": "senseFieldUI",
+        "col": 0,
+        "row": 0,
+        "colspan": 6,
+        "rowspan": 2,
+        "bounds": {
+          "y": 0,
+          "x": 0,
+          "width": 16.666666666666664,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "20e97ddd-6d1c-4552-9279-58a54cbc586e",
+        "type": "senseFieldUI",
+        "col": 7,
+        "row": 0,
+        "colspan": 23,
+        "rowspan": 2,
+        "bounds": {
+          "y": 0,
+          "x": 19.444444444444446,
+          "width": 63.888888888888886,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "a4e9ee3e-c3da-4afe-8565-69dbd4896697",
+        "type": "linechart",
+        "col": 18,
+        "row": 11,
+        "colspan": 18,
+        "rowspan": 7,
+        "bounds": {
+          "y": 61.111111111111114,
+          "x": 50,
+          "width": 50,
+          "height": 38.88888888888889
+        }
+      },
+      {
+        "name": "c7993e1b-2ad7-4a87-bfca-bef8a8b0dfc3",
+        "type": "DateRangePicker",
+        "col": 31,
+        "row": 0,
+        "colspan": 5,
+        "rowspan": 2,
+        "bounds": {
+          "y": 0,
+          "x": 86.11111111111111,
+          "width": 13.88888888888889,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "nvFwXgs",
+        "type": "barchart",
+        "col": 18,
+        "row": 6,
+        "colspan": 18,
+        "rowspan": 5,
+        "bounds": {
+          "y": 33.33333333333333,
+          "x": 50,
+          "width": 50,
+          "height": 27.77777777777778
+        }
+      },
+      {
+        "name": "yPkTp",
+        "type": "filterpane",
+        "col": 7,
+        "row": 2,
+        "colspan": 5,
+        "rowspan": 2,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 19.444444444444446,
+          "width": 13.88888888888889,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "jqUGjPn",
+        "type": "filterpane",
+        "col": 12,
+        "row": 2,
+        "colspan": 5,
+        "rowspan": 2,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 33.33333333333333,
+          "width": 13.88888888888889,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "jdECt",
+        "type": "filterpane",
+        "col": 17,
+        "row": 2,
+        "colspan": 5,
+        "rowspan": 2,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 47.22222222222222,
+          "width": 13.88888888888889,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "vtmQW",
+        "type": "filterpane",
+        "col": 22,
+        "row": 2,
+        "colspan": 5,
+        "rowspan": 2,
+        "bounds": {
+          "y": 11.11111111111111,
+          "x": 61.111111111111114,
+          "width": 13.88888888888889,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "ZnAmpv",
+        "type": "variable",
+        "col": 0,
+        "row": 4,
+        "colspan": 13,
+        "rowspan": 2,
+        "bounds": {
+          "y": 22.22222222222222,
+          "x": 0,
+          "width": 36.11111111111111,
+          "height": 11.11111111111111
+        }
+      },
+      {
+        "name": "qHGjpU",
+        "type": "senseFieldUI",
+        "col": 30,
+        "row": 0,
+        "colspan": 1,
+        "rowspan": 1,
+        "bounds": {
+          "y": 0,
+          "x": 83.33333333333334,
+          "width": 2.7777777777777777,
+          "height": 5.555555555555555
+        }
+      },
+      {
+        "name": "JmGsY",
+        "type": "senseFieldUI",
+        "col": 30,
+        "row": 1,
+        "colspan": 1,
+        "rowspan": 1,
+        "bounds": {
+          "y": 5.555555555555555,
+          "x": 83.33333333333334,
+          "width": 2.7777777777777777,
+          "height": 5.555555555555555
+        }
+      }
+    ],
+    "qChildListDef": {
+      "qData": {
+        "title": "/title"
+      }
+    },
+    "gridResolution": "large"
+  },
+  "qChildren": [
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "a4e9ee3e-c3da-4afe-8565-69dbd4896697",
+          "qType": "linechart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(_DimCalendar)"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "=(_DimCalendar)",
+                "autoSort": true,
+                "cId": "XzJagdf",
+                "othersLabel": "Другие"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Другие"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(_Dim)"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "=(_Dim)",
+                "autoSort": true,
+                "cId": "JPaXTmu",
+                "othersLabel": "Другие"
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Другие"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Другие"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qLabel": "Объем перевозки горной массы",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "if($(_Switcher)=1,Num(Sum([ВесРазгрузкиУср]),'# ##0') , \r\nNum(Sum([ВесРазгрузкиУср])/Count(distinct ПаркТехники),'# ##0,00') )\n/*sum([ВесРазгрузкиУср])/\nCount(distinct {<[КодСобытия]={'9'}>} KeyAction)*/",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "# ##0,00",
+                  "qDec": ",",
+                  "qThou": " "
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "QqFDsw",
+                "numFormatFromTemplate": true,
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            2,
+            1
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 17,
+              "qHeight": 500
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "K",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qAlwaysFullyExpanded": true,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": "Объем транспортировки, тонн",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "lineType": "line",
+        "stackedArea": false,
+        "separateStacking": true,
+        "scrollStartPos": 0,
+        "nullMode": "gap",
+        "dataPoint": {
+          "show": true,
+          "showLabels": true
+        },
+        "gridLine": {
+          "auto": true,
+          "spacing": 2
+        },
+        "color": {
+          "auto": true,
+          "mode": "primary",
+          "useBaseColors": "off",
+          "paletteColor": {
+            "index": 6
+          },
+          "useDimColVal": true,
+          "useMeasureGradient": true,
+          "persistent": true,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "sg",
+          "reverseScheme": false,
+          "dimensionScheme": "12",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10
+        },
+        "legend": {
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "dimensionAxis": {
+          "continuousAuto": true,
+          "show": "labels",
+          "label": "auto",
+          "dock": "near"
+        },
+        "preferContinuousAxis": false,
+        "showMiniChartForContinuousAxis": true,
+        "measureAxis": {
+          "show": "labels",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10,
+          "logarithmic": false
+        },
+        "visualization": "linechart",
+        "qLayoutExclude": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "51147c5b-b902-4f3b-853a-076874ff3d1b",
+          "qType": "linechart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(_DimCalendar)"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "=(_DimCalendar)",
+                "autoSort": true,
+                "cId": "XzJagdf",
+                "othersLabel": "Другие"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Другие"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(_Dim)"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "=(_Dim)",
+                "autoSort": true,
+                "cId": "JPaXTmu",
+                "othersLabel": "Другие"
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Другие"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Другие"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qLabel": "Среднетехническая скорость, км.ч.",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "(sum([Путь])/1000 )/\r\n (Num#(Interval(SUm({< [КодСобытия]={'6'}, flgГруженый={'1'}>}  [ДельтаВСекРазгр])/86400, 'hh.mm')) \n+Num#(Interval(SUm({< [КодСобытия]={'6'},[flgПорожний]={'1'}>}  [ДельтаВСекПорожний])/86400, 'hh.mm')))\n/*if($(_Switcher)=1,\n(sum([Путь])/1000 )/\n (Num#(Interval(SUm({< [КодСобытия]={'6'}, flgГруженый={'1'}>}  [ДельтаВСекРазгр])/86400, 'hh.mm')) \n+Num#(Interval(Sum( {<[КодСобытия]={'6'}>} Interval(ВремяПорожний,'hh.mm')),'hh.mm') )),\n\n((sum([Путь])/1000 )/\n (Num#(Interval(SUm({< [КодСобытия]={'6'}, flgГруженый={'1'}>}  [ДельтаВСекРазгр])/86400, 'hh.mm')) \n+Num#(Interval(Sum( {<[КодСобытия]={'6'}>} Interval(ВремяПорожний,'hh.mm')),'hh.mm') )))\n/Count(distinct ПаркТехники) \n)*/\n/*(sum([Путь])/1000 )/\n (Num#(Interval(SUm({< [КодСобытия]={'6'}, flgГруженый={'1'}>}  [ДельтаВСекРазгр])/86400, 'hh.mm')) \n+Num#(Interval(Sum( {<[КодСобытия]={'6'}>} Interval(ВремяПорожний,'hh.mm')),'hh.mm') ))\n*/\n",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "# ##0,00",
+                  "qDec": ",",
+                  "qThou": " "
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "QqFDsw",
+                "numFormatFromTemplate": true,
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            2,
+            1
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 17,
+              "qHeight": 500
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "K",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qAlwaysFullyExpanded": true,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": {
+          "qStringExpression": {
+            "qExpr": "='Среднетехническая скорость, км/ч'"
+          }
+        },
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "lineType": "line",
+        "stackedArea": false,
+        "separateStacking": true,
+        "scrollStartPos": 0,
+        "nullMode": "gap",
+        "dataPoint": {
+          "show": true,
+          "showLabels": true
+        },
+        "gridLine": {
+          "auto": true,
+          "spacing": 2
+        },
+        "color": {
+          "auto": true,
+          "mode": "primary",
+          "useBaseColors": "off",
+          "paletteColor": {
+            "index": 6
+          },
+          "useDimColVal": true,
+          "useMeasureGradient": true,
+          "persistent": true,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "sg",
+          "reverseScheme": false,
+          "dimensionScheme": "12",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10
+        },
+        "legend": {
+          "show": true,
+          "dock": "right",
+          "showTitle": true
+        },
+        "dimensionAxis": {
+          "continuousAuto": true,
+          "show": "all",
+          "label": "auto",
+          "dock": "near"
+        },
+        "preferContinuousAxis": true,
+        "showMiniChartForContinuousAxis": true,
+        "measureAxis": {
+          "show": "labels",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10,
+          "logarithmic": false
+        },
+        "visualization": "linechart",
+        "qLayoutExclude": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "d58da472-6360-4c0b-b84f-e6bac27cf784",
+          "qType": "text-image"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "customErrorMessage": {
+            "calcCond": ""
+          },
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "responsive": "all",
+        "markdown": "^[**Р****аз****рез:**](right)",
+        "images": [],
+        "background": {
+          "isUsed": false,
+          "size": "auto",
+          "position": "topLeft",
+          "url": {}
+        },
+        "visualization": "text-image"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "c93261b1-f9a0-439f-aeb3-2d17a8226e3c",
+          "qType": "variable"
+        },
+        "qMetaDef": {
+          "title": "Временной разрез",
+          "tags": []
+        },
+        "showTitles": false,
+        "title": "Временной разрез",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "_DimCalendar",
+        "render": "s",
+        "style": "qlik",
+        "width": "",
+        "customwidth": "",
+        "vert": false,
+        "updateondrag": false,
+        "thinHeader": false,
+        "valueType": "x",
+        "dynamicvalues": "",
+        "alternatives": [
+          {
+            "value": "Дата",
+            "label": "Дата",
+            "cId": "eCupde"
+          },
+          {
+            "value": "ДеньНедели",
+            "label": "День недели",
+            "cId": "eTTVj"
+          },
+          {
+            "value": "Месяц",
+            "label": "Месяц",
+            "cId": "BxJupc"
+          },
+          {
+            "value": "Квартал",
+            "label": "Квартал",
+            "cId": "mYesq"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=\"_DimCalendar\""
+          }
+        },
+        "version": "2.3.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable",
+          "description": "Variable extension",
+          "template": "variable",
+          "isThirdParty": true,
+          "version": "5.2.3",
+          "type": "visualization",
+          "author": "Erik Wetterberg upper88.com",
+          "contributors": [
+            "Brett Farley contextbi.com"
+          ]
+        },
+        "masterVersion": 0.96,
+        "metadata": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "JmGsY",
+          "qType": "senseFieldUI"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Месяц"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 10000
+            }
+          ],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "vars": {
+          "StyleOverride": "Dropdown",
+          "ListType": "inline",
+          "selectedColor": 2,
+          "btnSize": "btn-xs",
+          "btnSpan": true,
+          "iconOnly": false,
+          "iconButton": "hand-peace-o,heart-o,smile-o,beer,gamepad,paw,diamond",
+          "dropMultiSelect": false,
+          "dropMultiSelectSize": 7,
+          "chbxStyle": " ",
+          "Defaulthighlight": true,
+          "Defaulthighlightvalue": "июн.",
+          "hiddenField": false
+        },
+        "disableFullScreen": false,
+        "visualization": "senseFieldUI",
+        "version": 1,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Field UI",
+          "description": "Manage how fields are viewed in the UI",
+          "template": "senseFieldUI",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "preview": "preview.png",
+          "author": "Alex Byrd",
+          "keywords": "qlik-sense, extension, bootstrap, font-awesome, dropdown, checkbox, button, radio",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/senseFieldUI/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "20e97ddd-6d1c-4552-9279-58a54cbc586e",
+          "qType": "senseFieldUI"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Месяц"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 10000
+            }
+          ],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "vars": {
+          "StyleOverride": "Button",
+          "ListType": "inline",
+          "selectedColor": 2,
+          "btnSize": "btn-xs",
+          "btnSpan": true,
+          "iconOnly": false,
+          "iconButton": "hand-peace-o,heart-o,smile-o,beer,gamepad,paw,diamond",
+          "dropMultiSelect": false,
+          "dropMultiSelectSize": 7,
+          "chbxStyle": " ",
+          "Defaulthighlight": false,
+          "Defaulthighlightvalue": " ",
+          "hiddenField": false
+        },
+        "disableFullScreen": false,
+        "visualization": "senseFieldUI",
+        "version": 1,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Field UI",
+          "description": "Manage how fields are viewed in the UI",
+          "template": "senseFieldUI",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "preview": "preview.png",
+          "author": "Alex Byrd",
+          "keywords": "qlik-sense, extension, bootstrap, font-awesome, dropdown, checkbox, button, radio",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/senseFieldUI/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "445d4520-3752-4dcb-a42e-a09408dbd44e",
+          "qType": "text-image"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [],
+          "qMeasures": [],
+          "qInterColumnSortOrder": [],
+          "qInitialDataFetch": [],
+          "qReductionMode": "N",
+          "qMode": "S",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "customErrorMessage": {
+            "calcCond": ""
+          },
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "responsive": "all",
+        "markdown": "^[**Временной раз****рез:**](right)",
+        "images": [],
+        "background": {
+          "isUsed": false,
+          "size": "auto",
+          "position": "topLeft",
+          "url": {}
+        },
+        "visualization": "text-image"
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "38bd3558-55b0-41e8-806a-65014b4c7656",
+          "qType": "linechart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(_DimCalendar)"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "=(_DimCalendar)",
+                "autoSort": true,
+                "cId": "XzJagdf",
+                "othersLabel": "Другие"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Другие"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(_Dim)"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "=(_Dim)",
+                "autoSort": true,
+                "cId": "JPaXTmu",
+                "othersLabel": "Другие"
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Другие"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Другие"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qLabel": "Среднее расстояние откатки, км",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "/*if($(_Switcher)=1, sum([ПутьОтПогрузки])/1000/\r\nCount(distinct {<[КодСобытия]={'9'}>} KeyAction),\n(sum([ПутьОтПогрузки])/1000/\nCount(distinct {<[КодСобытия]={'9'}>} KeyAction))/Count(distinct ПаркТехники) \n\n)*/\nsum([ПутьОтПогрузки])/1000/\nCount(distinct {<[КодСобытия]={'9'}>} KeyAction)",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "# ##0,00",
+                  "qDec": ",",
+                  "qThou": " "
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "QqFDsw",
+                "numFormatFromTemplate": true,
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            2,
+            1
+          ],
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 17,
+              "qHeight": 500
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "K",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qAlwaysFullyExpanded": true,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": "Среднее расстояние транспортировки, км",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "lineType": "line",
+        "stackedArea": true,
+        "separateStacking": true,
+        "scrollStartPos": 0,
+        "nullMode": "gap",
+        "dataPoint": {
+          "show": true,
+          "showLabels": true
+        },
+        "gridLine": {
+          "auto": true,
+          "spacing": 2
+        },
+        "color": {
+          "auto": true,
+          "mode": "byDimension",
+          "useBaseColors": "off",
+          "paletteColor": {
+            "index": 6
+          },
+          "useDimColVal": true,
+          "useMeasureGradient": true,
+          "persistent": true,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "sg",
+          "reverseScheme": false,
+          "dimensionScheme": "12",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10,
+          "altLabel": {
+            "qStringExpression": {
+              "qExpr": "(_Dim)"
+            }
+          },
+          "byDimDef": {
+            "label": "=(_Dim)",
+            "key": "=$(_Dim)",
+            "type": "expression"
+          }
+        },
+        "legend": {
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "dimensionAxis": {
+          "continuousAuto": true,
+          "show": "all",
+          "label": "auto",
+          "dock": "near"
+        },
+        "preferContinuousAxis": true,
+        "showMiniChartForContinuousAxis": true,
+        "measureAxis": {
+          "show": "labels",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10,
+          "logarithmic": false
+        },
+        "visualization": "linechart",
+        "qLayoutExclude": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "c7993e1b-2ad7-4a87-bfca-bef8a8b0dfc3",
+          "qType": "DateRangePicker"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Дата"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qSortByState": 1,
+                "qSortByNumeric": 1,
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qInitialDataFetch": [],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByNumeric": 1,
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "props": {
+          "isSingleDate": false,
+          "minDate": "",
+          "maxDate": "",
+          "startDate": "",
+          "CustomRangesEnabled": true,
+          "locale": "ru",
+          "format": "DD.MM.YYYY",
+          "separator": " - ",
+          "customRangeLabel": "Произвольный",
+          "defaultText": "Календарь",
+          "today": "Сегодня",
+          "yesterday": "Вчера",
+          "lastXDays": "Последние $ дней",
+          "thisMonth": "Текущий месяц",
+          "lastMonth": "Прошлый месяц"
+        },
+        "visualization": "DateRangePicker",
+        "version": 1,
+        "fixed": true,
+        "width": 25,
+        "percent": true,
+        "selectionMode": "CONFIRM",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "table",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "DateRangePicker",
+          "description": "DateRangePicker",
+          "template": "DateRangePicker",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.1.4",
+          "preview": "preview.png",
+          "author": "Nodier Torres",
+          "homepage": "http://branch.qlik.com/#/project/5697a878dcc497f80ed514bf",
+          "keywords": "qlik-sense, visualization",
+          "license": "",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/DateRangePicker/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "c3201633-751d-4ea3-b132-d85c8460d97c",
+          "qType": "variable"
+        },
+        "qMetaDef": {
+          "title": "Временной разрез",
+          "tags": []
+        },
+        "showTitles": false,
+        "title": "Временной разрез",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "_Dim",
+        "render": "s",
+        "style": "qlik",
+        "width": "",
+        "customwidth": "",
+        "vert": false,
+        "updateondrag": false,
+        "thinHeader": false,
+        "valueType": "x",
+        "dynamicvalues": "",
+        "alternatives": [
+          {
+            "value": "Предприятие",
+            "label": "Предприятие",
+            "cId": "WgCNj"
+          },
+          {
+            "value": "Цех",
+            "label": "Цех",
+            "cId": "nQKhqqj"
+          },
+          {
+            "value": "ПаркТехники",
+            "label": "Парк техники",
+            "cId": "mYesq"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=\"_Dim\""
+          }
+        },
+        "version": "2.3.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable",
+          "description": "Variable extension",
+          "template": "variable",
+          "isThirdParty": true,
+          "version": "5.2.3",
+          "type": "visualization",
+          "author": "Erik Wetterberg upper88.com",
+          "contributors": [
+            "Brett Farley contextbi.com"
+          ]
+        },
+        "masterVersion": 0.96,
+        "metadata": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "b964c431-ef31-432e-a26b-7336105169bd",
+          "qType": "senseFieldUI"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Год"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 10000
+            }
+          ],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "vars": {
+          "StyleOverride": "Button",
+          "ListType": "inline",
+          "selectedColor": 2,
+          "btnSize": "btn-xs",
+          "btnSpan": true,
+          "iconOnly": false,
+          "iconButton": "hand-peace-o,heart-o,smile-o,beer,gamepad,paw,diamond",
+          "dropMultiSelect": false,
+          "dropMultiSelectSize": 7,
+          "chbxStyle": " ",
+          "Defaulthighlight": false,
+          "Defaulthighlightvalue": " ",
+          "hiddenField": false
+        },
+        "disableFullScreen": false,
+        "visualization": "senseFieldUI",
+        "version": 1,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Field UI",
+          "description": "Manage how fields are viewed in the UI",
+          "template": "senseFieldUI",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "preview": "preview.png",
+          "author": "Alex Byrd",
+          "keywords": "qlik-sense, extension, bootstrap, font-awesome, dropdown, checkbox, button, radio",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/senseFieldUI/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "qHGjpU",
+          "qType": "senseFieldUI"
+        },
+        "qMetaDef": {},
+        "qListObjectDef": {
+          "qDef": {
+            "qGrouping": "N",
+            "qFieldDefs": [
+              "Год"
+            ],
+            "qFieldLabels": [
+              ""
+            ],
+            "qSortCriterias": [
+              {
+                "qExpression": {}
+              }
+            ],
+            "qNumberPresentations": [],
+            "qActiveField": 0
+          },
+          "qFrequencyMode": "V",
+          "qShowAlternatives": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 1,
+              "qHeight": 10000
+            }
+          ],
+          "qExpressions": [],
+          "qSortCriterias": {
+            "qSortByState": 1
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "vars": {
+          "StyleOverride": "Dropdown",
+          "ListType": "inline",
+          "selectedColor": 2,
+          "btnSize": "btn-xs",
+          "btnSpan": true,
+          "iconOnly": false,
+          "iconButton": "hand-peace-o,heart-o,smile-o,beer,gamepad,paw,diamond",
+          "dropMultiSelect": false,
+          "dropMultiSelectSize": 7,
+          "chbxStyle": " ",
+          "Defaulthighlight": true,
+          "Defaulthighlightvalue": "=$(YearDefault)",
+          "hiddenField": false
+        },
+        "disableFullScreen": false,
+        "visualization": "senseFieldUI",
+        "version": 1,
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "list",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Field UI",
+          "description": "Manage how fields are viewed in the UI",
+          "template": "senseFieldUI",
+          "isThirdParty": true,
+          "type": "visualization",
+          "version": "1.0.0",
+          "preview": "preview.png",
+          "author": "Alex Byrd",
+          "keywords": "qlik-sense, extension, bootstrap, font-awesome, dropdown, checkbox, button, radio",
+          "license": "MIT",
+          "repository": "",
+          "dependencies": {
+            "qlik-sense": ">=1.0.x"
+          },
+          "previewIconURL": "https://178.159.45.105/extensions/senseFieldUI/preview.png"
+        }
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "yPkTp",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qLayoutExclude": {}
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "empa",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Предприятие"
+                ],
+                "qFieldLabels": [
+                  "Предприятие"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qNullSuppression": false,
+              "qIncludeElemValue": false,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": ""
+                },
+                "qOtherLimit": {
+                  "qv": ""
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qSuppressOther": false,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qGlobalOtherGrouping": false,
+                "qOtherCollapseInnerDimensions": false,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {
+                  "qv": ""
+                }
+              },
+              "qShowTotal": false,
+              "qShowAll": false,
+              "qOtherLabel": {
+                "qv": ""
+              },
+              "qTotalLabel": {
+                "qv": ""
+              },
+              "qCalcCond": {
+                "qv": ""
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {
+                  "qv": ""
+                },
+                "qMsg": {
+                  "qv": ""
+                }
+              }
+            },
+            "title": "Предприятие",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "nvFwXgs",
+          "qType": "linechart"
+        },
+        "qMetaDef": {},
+        "qHyperCubeDef": {
+          "qDimensions": [
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(_DimCalendar)"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "=(_DimCalendar)",
+                "autoSort": true,
+                "cId": "CsvZ",
+                "othersLabel": "Другие"
+              },
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Другие"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              }
+            },
+            {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "=$(_Dim)"
+                ],
+                "qFieldLabels": [
+                  ""
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "qLabelExpression": "=(_Dim)",
+                "autoSort": true,
+                "cId": "wqdnCS",
+                "othersLabel": "Другие"
+              },
+              "qNullSuppression": true,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": "10"
+                },
+                "qOtherLimit": {
+                  "qv": "0"
+                },
+                "qOtherLimitMode": "OTHER_GE_LIMIT",
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {}
+              },
+              "qOtherLabel": {
+                "qv": "Другие"
+              },
+              "qTotalLabel": {},
+              "qCalcCond": {},
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [
+                {
+                  "qDef": "=$(_Dim)",
+                  "qSortBy": {
+                    "qSortByAscii": 1,
+                    "qExpression": {}
+                  },
+                  "qAttribute": true,
+                  "id": "colorByAlternative",
+                  "label": "=(_Dim)",
+                  "labelExpRef": "color.altLabel"
+                }
+              ],
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "othersLabel": "Другие"
+            }
+          ],
+          "qMeasures": [
+            {
+              "qDef": {
+                "qLabel": "Удельный расход ДТ (г/т.км.)",
+                "qTags": [],
+                "qGrouping": "N",
+                "qDef": "fAbs(\r\nsum(aggr(if(СекундС1970=(min(total <[ПаркТехники],$(_DimCalendar)> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,$(_DimCalendar)))\n-sum(aggr(if(СекундС1970=(max(total <[ПаркТехники],$(_DimCalendar)> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970,$(_DimCalendar)))\n+(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000 /*расход топлива*/\n/(Sum(aggr(sum( ВесРазгрузкиУср)*(sum([ПутьОтПогрузки])/1000)/Count(distinct {<[КодСобытия]={'9'}>} KeyAction),[ПаркТехники],$(_Dim),$(_DimCalendar)))\n/ Sum( aggr(Count(distinct ПаркТехники),[ПаркТехники],$(_Dim),$(_DimCalendar)))\n ) /*грузооборот */\n/Count(distinct ПаркТехники)\n/*$(vFuelConsump)*/\n\n/*Sum(aggr(fabs((sum(aggr(if(СекундС1970=(min(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))\n-\nsum(aggr(if(СекундС1970=(max(total <[ПаркТехники]> {<[КодСобытия]={'6'}>} СекундС1970)) ,sum({<[КодСобытия]={'6'}>}  Топливо)),[ПаркТехники],СекундС1970))\n+\n(Sum({<[КодСобытия]={'1'}>}[ЗаправкаКонец]) - Sum({<[КодСобытия]={'1'}>}[ЗаправкаНачало])))*0.84*1000)\n/(Sum([ВесРазгрузкиУср])*(sum([ПутьОтПогрузки])/1000) /Num(Count(distinct {<[КодСобытия]={'9'}>} KeyAction),'# ##0'))\n,[ПаркТехники],$(_DimCalendar),$(_Dim)))\n/Count(distinct ПаркТехники)*/\n/*09.09.2019 оставили только для среднесписочного самосвала*/\n",
+                "qNumFormat": {
+                  "qType": "F",
+                  "qnDec": 2,
+                  "qUseThou": 0,
+                  "qFmt": "# ##0,00",
+                  "qDec": ",",
+                  "qThou": " "
+                },
+                "qAccumulate": 0,
+                "qActiveExpression": 0,
+                "qExpressions": [],
+                "autoSort": true,
+                "cId": "fwrzQj",
+                "numFormatFromTemplate": true,
+                "isCustomFormatted": false
+              },
+              "qSortBy": {
+                "qSortByNumeric": -1,
+                "qSortByLoadOrder": 1,
+                "qExpression": {}
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCond": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qTrendLines": [],
+              "qMiniChartDef": {
+                "qSortBy": {
+                  "qExpression": {}
+                },
+                "qOtherTotalSpec": {
+                  "qOtherMode": "OTHER_OFF",
+                  "qOtherCounted": {},
+                  "qOtherLimit": {},
+                  "qOtherLimitMode": "OTHER_GT_LIMIT",
+                  "qForceBadValueKeeping": true,
+                  "qApplyEvenWhenPossiblyWrongResult": true,
+                  "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                  "qTotalMode": "TOTAL_OFF",
+                  "qReferencedExpression": {}
+                },
+                "qMaxNumberPoints": -1,
+                "qAttributeExpressions": []
+              }
+            }
+          ],
+          "qInterColumnSortOrder": [
+            0,
+            2,
+            1
+          ],
+          "qSuppressZero": true,
+          "qSuppressMissing": true,
+          "qInitialDataFetch": [
+            {
+              "qLeft": 0,
+              "qTop": 0,
+              "qWidth": 17,
+              "qHeight": 500
+            }
+          ],
+          "qReductionMode": "N",
+          "qMode": "K",
+          "qPseudoDimPos": -1,
+          "qNoOfLeftDims": -1,
+          "qAlwaysFullyExpanded": true,
+          "qMaxStackedCells": 5000,
+          "qCalcCond": {},
+          "qTitle": {},
+          "qCalcCondition": {
+            "qCond": {},
+            "qMsg": {}
+          },
+          "qColumnOrder": [],
+          "qExpansionState": [],
+          "qLayoutExclude": {
+            "qHyperCubeDef": {
+              "qDimensions": [],
+              "qMeasures": [],
+              "qInterColumnSortOrder": [],
+              "qInitialDataFetch": [],
+              "qReductionMode": "N",
+              "qMode": "S",
+              "qPseudoDimPos": -1,
+              "qNoOfLeftDims": -1,
+              "qMaxStackedCells": 5000,
+              "qCalcCond": {},
+              "qTitle": {},
+              "qCalcCondition": {
+                "qCond": {},
+                "qMsg": {}
+              },
+              "qColumnOrder": [],
+              "qExpansionState": []
+            }
+          }
+        },
+        "refLine": {
+          "refLines": []
+        },
+        "showTitles": true,
+        "title": "Удельный расход дизельного топлива, г/ткм",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "scrollStartPos": 0,
+        "gridLine": {
+          "auto": true,
+          "spacing": 2
+        },
+        "dataPoint": {
+          "showLabels": true,
+          "show": true
+        },
+        "color": {
+          "auto": false,
+          "mode": "byDimension",
+          "useBaseColors": "off",
+          "paletteColor": {
+            "index": 7,
+            "color": "#8e477d"
+          },
+          "useDimColVal": true,
+          "useMeasureGradient": true,
+          "persistent": true,
+          "expressionIsColor": true,
+          "expressionLabel": "",
+          "measureScheme": "sg",
+          "reverseScheme": false,
+          "dimensionScheme": "12",
+          "autoMinMax": true,
+          "measureMin": 0,
+          "measureMax": 10,
+          "altLabel": {
+            "qStringExpression": {
+              "qExpr": "(_Dim)"
+            }
+          },
+          "byDimDef": {
+            "label": "=(_Dim)",
+            "key": "=$(_Dim)",
+            "type": "expression"
+          }
+        },
+        "legend": {
+          "show": true,
+          "dock": "auto",
+          "showTitle": true
+        },
+        "dimensionAxis": {
+          "continuousAuto": true,
+          "show": "all",
+          "label": "auto",
+          "dock": "near"
+        },
+        "preferContinuousAxis": true,
+        "showMiniChartForContinuousAxis": true,
+        "measureAxis": {
+          "show": "labels",
+          "dock": "near",
+          "spacing": 1,
+          "autoMinMax": true,
+          "minMax": "min",
+          "min": 0,
+          "max": 10,
+          "logarithmic": false
+        },
+        "visualization": "linechart",
+        "lineType": "line",
+        "stackedArea": false,
+        "separateStacking": true,
+        "nullMode": "gap",
+        "qLayoutExclude": {}
+      },
+      "qChildren": []
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "jqUGjPn",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qLayoutExclude": {}
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "gMJgJ",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Цех"
+                ],
+                "qFieldLabels": [
+                  "Цех"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qNullSuppression": false,
+              "qIncludeElemValue": false,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": ""
+                },
+                "qOtherLimit": {
+                  "qv": ""
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qSuppressOther": false,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qGlobalOtherGrouping": false,
+                "qOtherCollapseInnerDimensions": false,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {
+                  "qv": ""
+                }
+              },
+              "qShowTotal": false,
+              "qShowAll": false,
+              "qOtherLabel": {
+                "qv": ""
+              },
+              "qTotalLabel": {
+                "qv": ""
+              },
+              "qCalcCond": {
+                "qv": ""
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {
+                  "qv": ""
+                },
+                "qMsg": {
+                  "qv": ""
+                }
+              }
+            },
+            "title": "Цех",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "jdECt",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qLayoutExclude": {}
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "ZAnp",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "Модель"
+                ],
+                "qFieldLabels": [
+                  "Модель"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qNullSuppression": false,
+              "qIncludeElemValue": false,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": ""
+                },
+                "qOtherLimit": {
+                  "qv": ""
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qSuppressOther": false,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qGlobalOtherGrouping": false,
+                "qOtherCollapseInnerDimensions": false,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {
+                  "qv": ""
+                }
+              },
+              "qShowTotal": false,
+              "qShowAll": false,
+              "qOtherLabel": {
+                "qv": ""
+              },
+              "qTotalLabel": {
+                "qv": ""
+              },
+              "qCalcCond": {
+                "qv": ""
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {
+                  "qv": ""
+                },
+                "qMsg": {
+                  "qv": ""
+                }
+              }
+            },
+            "title": "Модель",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "vtmQW",
+          "qType": "filterpane"
+        },
+        "qMetaDef": {},
+        "qChildListDef": {
+          "qData": {
+            "info": "/qInfo"
+          }
+        },
+        "showTitles": false,
+        "title": "",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "visualization": "filterpane",
+        "qLayoutExclude": {}
+      },
+      "qChildren": [
+        {
+          "qProperty": {
+            "qInfo": {
+              "qId": "hpUHj",
+              "qType": "listbox"
+            },
+            "qMetaDef": {},
+            "qListObjectDef": {
+              "qDef": {
+                "qGrouping": "N",
+                "qFieldDefs": [
+                  "ПаркТехники"
+                ],
+                "qFieldLabels": [
+                  "Парк техники"
+                ],
+                "qSortCriterias": [
+                  {
+                    "qSortByState": 1,
+                    "qSortByNumeric": 1,
+                    "qSortByAscii": 1,
+                    "qSortByLoadOrder": 1,
+                    "qExpression": {}
+                  }
+                ],
+                "qNumberPresentations": [],
+                "qActiveField": 0,
+                "autoSort": true
+              },
+              "qFrequencyMode": "N",
+              "qShowAlternatives": true,
+              "qInitialDataFetch": [],
+              "qExpressions": [],
+              "qNullSuppression": false,
+              "qIncludeElemValue": false,
+              "qOtherTotalSpec": {
+                "qOtherMode": "OTHER_OFF",
+                "qOtherCounted": {
+                  "qv": ""
+                },
+                "qOtherLimit": {
+                  "qv": ""
+                },
+                "qOtherLimitMode": "OTHER_GT_LIMIT",
+                "qSuppressOther": false,
+                "qForceBadValueKeeping": true,
+                "qApplyEvenWhenPossiblyWrongResult": true,
+                "qGlobalOtherGrouping": false,
+                "qOtherCollapseInnerDimensions": false,
+                "qOtherSortMode": "OTHER_SORT_DESCENDING",
+                "qTotalMode": "TOTAL_OFF",
+                "qReferencedExpression": {
+                  "qv": ""
+                }
+              },
+              "qShowTotal": false,
+              "qShowAll": false,
+              "qOtherLabel": {
+                "qv": ""
+              },
+              "qTotalLabel": {
+                "qv": ""
+              },
+              "qCalcCond": {
+                "qv": ""
+              },
+              "qAttributeExpressions": [],
+              "qAttributeDimensions": [],
+              "qCalcCondition": {
+                "qCond": {
+                  "qv": ""
+                },
+                "qMsg": {
+                  "qv": ""
+                }
+              }
+            },
+            "title": "Парк техники",
+            "visualization": "listbox"
+          },
+          "qChildren": []
+        }
+      ]
+    },
+    {
+      "qProperty": {
+        "qInfo": {
+          "qId": "ZnAmpv",
+          "qType": "variable"
+        },
+        "qMetaDef": {
+          "title": "Временной разрез",
+          "tags": []
+        },
+        "showTitles": false,
+        "title": "Временной разрез",
+        "subtitle": "",
+        "footnote": "",
+        "showDetails": false,
+        "variableName": "_Switcher",
+        "style": "qlik",
+        "width": "fill",
+        "customwidth": "",
+        "render": "b",
+        "alternatives": [
+          {
+            "value": "1",
+            "label": "Общее",
+            "cId": "WgCNj"
+          },
+          {
+            "value": "2",
+            "label": "На 1 среднесписочный самосвал",
+            "cId": "nQKhqqj"
+          }
+        ],
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "rangelabel": false,
+        "visualization": "variable",
+        "variableValue": {
+          "qStringExpression": {
+            "qExpr": "=_Switcher"
+          }
+        },
+        "version": "2.3.1",
+        "extensionMeta": {
+          "translationKey": "",
+          "icon": "puzzle",
+          "iconChar": "g",
+          "isLibraryItem": true,
+          "visible": true,
+          "name": "Variable",
+          "description": "Variable extension",
+          "template": "variable",
+          "isThirdParty": true,
+          "version": "2.3.1",
+          "type": "visualization",
+          "author": "Erik Wetterberg"
+        },
+        "qLayoutExclude": {
+          "disabled": {
+            "qExtendsId": "",
+            "vert": false,
+            "updateondrag": false,
+            "thinHeader": false,
+            "valueType": "x",
+            "dynamicvalues": "",
+            "masterVersion": 0.96,
+            "metadata": {}
+          }
+        }
+      },
+      "qChildren": []
+    }
+  ]
+}
